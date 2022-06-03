@@ -11,7 +11,8 @@ body {
     text-align: center;
     margin: 20px;
     gap: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.1rem;
     background-color: var(--black);
     color: var(--white);
 }
@@ -27,7 +28,8 @@ button {
     border-radius: 2%;
     padding: 10px;
     font-size: 21px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.1rem;
     transition: 200ms;
 }
 
@@ -40,10 +42,11 @@ button:hover {
     background-color: var(--white);
     width: 60%;
     height: 2px;
+    margin: 10px 0;
 }
 
 .exc-line {
-    margin-bottom: 20px;
+    margin: 10px 0;
     width: 80%;
 }
 
@@ -51,19 +54,19 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 50px;
 }
 
 .input-conts {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
 }
 
 .input-btns {
-    height: 60px;
-    font-size: 26px;
+    height: 75px;
+    font-size: 28px;
     padding: 0px 20px;
     border-width: 2px;
 }
@@ -90,6 +93,7 @@ main {
     align-content: center;
     justify-content: center;
     width: 100%;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
@@ -101,16 +105,14 @@ main {
     align-content: center;
     justify-items: center;
     width: 100%;
-    height: 70px;
+    height: 60px;
     gap: 10px;
-}
-
-.random-text {
-    text-align: center;
 }
 
 .random-btn {
     width: 40px;
+    height: 40px;
+    padding: 4px;
 }
 
 .random-btn:hover {
@@ -130,6 +132,7 @@ main {
 
 .all-btns {
     margin-top: 30px;
+    width: 170px;
 }
 
 h1 {
@@ -139,7 +142,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    margin: 14px;
+    margin: 0px;
 }
 
 h3 {

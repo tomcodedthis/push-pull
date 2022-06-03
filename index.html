@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="initial-scale=1, width=device-width">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&display=swap" rel="stylesheet">
         <title>Push Pull</title>
     </head>
 
@@ -15,16 +16,12 @@
                 <button id="legs-split-btn" class="input-btns split-btns">Legs</button>
             </div>
 
-            <div class="line"></div>
-
             <div id="equip-cont" class="input-conts">
                 <button id="body-btn" class="input-btns equip-btns">Body-Weight</button>
                 <button id="dumb-btn" class="input-btns equip-btns">Dumbells</button>
                 <button id="bar-btn" class="input-btns equip-btns">Barbell</button>
                 <button id="gym-btn" class="input-btns equip-btns">Full Machines</button>
             </div>
-
-            <div class="line"></div>
 
             <div id="sets-div" class="input-conts">
                 <button id="3sets-btn" class="input-btns sets-btns">3</button>
@@ -38,19 +35,36 @@
             <div id="push-cont" class="main-cont">
                 <h2>Push</h2>
                 <div class="line exc-line"></div>
+
                 <div id="chest-cont" class="excercise-cont">
                     <h3 id="chest-text" class="random-text"></h3>
-                    <button id="chest-info" class="info-btn push-info-btn">i</button>
+                    <a><button id="chest-info" class="info-btn push-info-btn">i</button></a>
                     <button id="chest" class="random-btn push-rndm-btn">R</button>
                 </div>
                 <div id="triceps-cont" class="excercise-cont">
                     <h3 id="triceps-text" class="random-text"></h3>
-                    <button id="triceps-info" class="info-btn push-info-btn">i</button>
+                    <a><button id="triceps-info" class="info-btn push-info-btn">i</button></a>
                     <button id="triceps" class="random-btn push-rndm-btn">R</button>
                 </div>
                 <div id="shoulders-cont" class="excercise-cont">
                     <h3 id="shoulders-text" class="random-text"></h3>
-                    <button id="triceps-info" class="info-btn push-info-btn">i</button>
+                    <a><button id="triceps-info" class="info-btn push-info-btn">i</button></a>
+                    <button id="shoulders" class="random-btn push-rndm-btn">R</button>
+                </div>
+
+                <div id="chest-cont" class="excercise-cont new-conts conts-1">
+                    <h3 id="chest-text" class="random-text"></h3>
+                    <a><button id="chest-info" class="info-btn push-info-btn">i</button></a>
+                    <button id="chest" class="random-btn push-rndm-btn">R</button>
+                </div>
+                <div id="triceps-cont" class="excercise-cont new-conts conts-2">
+                    <h3 id="triceps-text" class="random-text"></h3>
+                    <a><button id="triceps-info" class="info-btn push-info-btn">i</button></a>
+                    <button id="triceps" class="random-btn push-rndm-btn">R</button>
+                </div>
+                <div id="shoulders-cont" class="excercise-cont new-conts conts-3">
+                    <h3 id="shoulders-text" class="random-text"></h3>
+                    <a><button id="triceps-info" class="info-btn push-info-btn">i</button></a>
                     <button id="shoulders" class="random-btn push-rndm-btn">R</button>
                 </div>
 
@@ -62,19 +76,36 @@
             <div id="pullLegs-cont" class="main-cont">
                 <h2>Pull (w/Legs)</h2>
                 <div class="line exc-line"></div>
+
                 <div id="back-cont" class="excercise-cont">
                     <h3 id="back-text" class="random-text"></h3>
-                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="back" class="random-btn pullLegs-rndm-btn">R</button>
                 </div>
                 <div id="biceps-cont" class="excercise-cont">
                     <h3 id="biceps-text" class="random-text"></h3>
-                    <button id="biceps-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="biceps-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="biceps" class="random-btn pullLegs-rndm-btn">R</button>
                 </div>
                 <div id="legs-cont" class="excercise-cont">
                     <h3 id="legs-text" class="random-text"></h3>
-                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="legs" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+
+                <div id="back-cont" class="excercise-cont new-conts conts-1">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="back" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+                <div id="biceps-cont" class="excercise-cont new-conts conts-2">
+                    <h3 id="biceps-text" class="random-text"></h3>
+                    <a><button id="biceps-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="biceps" class="random-btn pullLegs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont new-conts conts-3">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="legs" class="random-btn pullLegs-rndm-btn">R</button>
                 </div>
 
@@ -86,19 +117,36 @@
             <div id="pull-cont" class="main-cont">
                 <h2>Pull</h2>
                 <div class="line exc-line"></div>
+
                 <div id="back-cont" class="excercise-cont">
                     <h3 id="back-text" class="random-text"></h3>
-                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="back" class="random-btn pull-rndm-btn">R</button>
                 </div>
                 <div id="biceps-cont" class="excercise-cont">
                     <h3 id="biceps-text" class="random-text"></h3>
-                    <button id="biceps-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="biceps-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="biceps" class="random-btn pull-rndm-btn">R</button>
                 </div>
                 <div id="back-cont" class="excercise-cont">
                     <h3 id="back-text" class="random-text"></h3>
-                    <button id="back-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="back" class="random-btn pull-rndm-btn">R</button>
+                </div>
+
+                <div id="back-cont" class="excercise-cont new-conts conts-1">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="back" class="random-btn pull-rndm-btn">R</button>
+                </div>
+                <div id="biceps-cont" class="excercise-cont new-conts conts-2">
+                    <h3 id="biceps-text" class="random-text"></h3>
+                    <a><button id="biceps-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="biceps" class="random-btn pull-rndm-btn">R</button>
+                </div>
+                <div id="back-cont" class="excercise-cont new-conts conts-3">
+                    <h3 id="back-text" class="random-text"></h3>
+                    <a><button id="back-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="back" class="random-btn pull-rndm-btn">R</button>
                 </div>
 
@@ -110,19 +158,36 @@
             <div id="legsMain-cont" class="main-cont">
                 <h2>Legs</h2>
                 <div class="line exc-line"></div>
+
                 <div id="legs-cont" class="excercise-cont">
                     <h3 id="legs-text" class="random-text"></h3>
-                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="legs" class="random-btn legs-rndm-btn">R</button>
                 </div>
                 <div id="legs-cont" class="excercise-cont">
                     <h3 id="legs-text" class="random-text"></h3>
-                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="legs" class="random-btn legs-rndm-btn">R</button>
                 </div>
                 <div id="legs-cont" class="excercise-cont">
                     <h3 id="legs-text" class="random-text"></h3>
-                    <button id="legs-info" class="info-btn pull-info-btn">i</button>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+
+                <div id="legs-cont" class="excercise-cont new-conts conts-1">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont new-conts conts-2">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
+                    <button id="legs" class="random-btn legs-rndm-btn">R</button>
+                </div>
+                <div id="legs-cont" class="excercise-cont new-conts conts-3">
+                    <h3 id="legs-text" class="random-text"></h3>
+                    <a><button id="legs-info" class="info-btn pull-info-btn">i</button></a>
                     <button id="legs" class="random-btn legs-rndm-btn">R</button>
                 </div>
 
