@@ -1,5 +1,5 @@
 :root {
-    --black: #222;
+    --black: #121212;
     --white: #eee;
 }
 
@@ -34,13 +34,13 @@ button {
 }
 
 button:hover {
-    box-shadow: 0px 5px var(--white);
+    box-shadow: 0px 0px 5px 3px var(--white);
     transform: scale(1.02);
 }
 
 .line {
     background-color: var(--white);
-    width: 60%;
+    width: 40%;
     height: 2px;
     margin: 10px 0;
 }
@@ -59,21 +59,21 @@ button:hover {
 
 .input-conts {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
 }
 
 .input-btns {
-    height: 75px;
-    font-size: 28px;
-    padding: 0px 20px;
+    height: 60px;
+    font-size: 26px;
+    padding: 0px 25px;
     border-width: 2px;
+    border-radius: 100vmax;
 }
 
 .input-btns-select {
-    box-shadow: 0px 5px var(--white);
-    font-weight: 900;
+    box-shadow: 0px 0px 8px 5px var(--white);
 }
 
 main {
