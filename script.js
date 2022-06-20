@@ -305,120 +305,120 @@ const excerciseData = {     // Holds all excercises & links
     shouldersExc: [
 
         shoulderBW = {
-            exc: ['shouldBW1', 'shouldBW2', 'shouldBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Handstand Push-Up', 'Wall Shoulder Tap', 'shouldBW3'],
+            link: ['https://www.bodybuilding.com/exercises/handstand-push-ups', 'https://www.bodybuilding.com/exercises/wall-shoulder-tap', 'https://www.google.co.uk/']
         },
         shoulderDB = {
-            exc: ['shouldDB1', 'shouldDB2', 'shouldDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Seated Dumbell Press', 'Side Lateral Raise', 'shouldDB3'],
+            link: ['https://www.bodybuilding.com/exercises/seated-dumbbell-press', 'https://www.bodybuilding.com/exercises/side-lateral-raise', 'https://www.google.co.uk/']
         },
         shoulderBB = {
-            exc: ['shoulderBB1', 'shoulderBB2', 'shoulderBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Seated Barbell Press', 'Barbell Front Raise', 'shoulderBB3'],
+            link: ['https://www.bodybuilding.com/exercises/seated-barbell-military-press', 'https://www.bodybuilding.com/exercises/barbell-front-raise', 'https://www.google.co.uk/']
         },
         shoulderFM = {
-            exc: ['shoulderFM1', 'shoulderFM2', 'shoulderFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Machine Shoulder Press', 'Reverse Machine Flyes', 'Single-Arm Cable Front Raise'],
+            link: ['https://www.bodybuilding.com/exercises/leverage-shoulder-press', 'https://www.bodybuilding.com/exercises/reverse-machine-flyes', 'https://www.bodybuilding.com/exercises/front-cable-raise']
         }
     ],
 
     chestExc: [
 
         chestBW = {
-            exc: ['chestBW1', 'chestBW2', 'chestBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Push-Up', 'Incline Push-Ups', 'chestBW3'],
+            link: ['https://www.bodybuilding.com/exercises/pushups', 'https://www.bodybuilding.com/exercises/incline-push-up', 'https://www.google.co.uk/']
         },
         chestDB = {
-            exc: ['chestDB1', 'chestDB2', 'chestDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Dumbell Bench Press', 'Dumbell Flyes', 'chestDB3'],
+            link: ['https://www.bodybuilding.com/exercises/dumbbell-bench-press', 'https://www.bodybuilding.com/exercises/dumbbell-flyes', 'https://www.google.co.uk/']
         },
         chestBB = {
-            exc: ['chestBB1', 'chestBB2', 'chestBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Wide-Grip Bench Press', 'Close-Grip Bench Press', 'chestBB3'],
+            link: ['https://www.bodybuilding.com/exercises/wide-grip-barbell-bench-press', 'https://www.bodybuilding.com/exercises/close-grip-barbell-bench-press', 'https://www.google.co.uk/']
         },
         chestFM = {
-            exc: ['chestFM1', 'chestFM2', 'chestFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Machine Chest Flyes', 'Low-Cable Cross-Over', 'chestFM3'],
+            link: ['https://www.bodybuilding.com/exercises/butterfly', 'https://www.bodybuilding.com/exercises/low-cable-crossover', 'https://www.google.co.uk/']
         }
     ],
 
     tricepsExc: [
 
         tricepBW = {
-            exc: ['tricepBW1', 'tricepBW2', 'tricepBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Tricep Dips', 'Push-Ups (Close Position)', 'tricepBW3'],
+            link: ['https://www.bodybuilding.com/exercises/dips-triceps-version', 'https://www.bodybuilding.com/exercises/push-ups-close-triceps-position', 'https://www.google.co.uk/']
         },
         tricepDB = {
-            exc: ['tricepDB1', 'tricepDB2', 'tricepDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Dumbell Kickbacks', 'Dumbell Skullcrusher', 'tricepDB3'],
+            link: ['https://www.bodybuilding.com/exercises/tricep-dumbbell-kickback', 'https://www.bodybuilding.com/exercises/lying-dumbbell-tricep-extension', 'https://www.google.co.uk/']
         },
         tricepBB = {
-            exc: ['tricepBB1', 'tricepBB2', 'tricepBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Barbell Sckullcrusher', 'Barbell Overhead Entensions', 'tricepBB3'],
+            link: ['https://www.bodybuilding.com/exercises/lying-close-grip-barbell-triceps-extension-behind-the-head', 'https://www.bodybuilding.com/exercises/standing-overhead-barbell-triceps-extension', 'https://www.google.co.uk/']
         },
         tricepFM = {
-            exc: ['tricepFM1', 'tricepFM2', 'tricepFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['V-Bar Push-Down', 'Reverse Grip Triceps Push-Down', 'tricepFM3'],
+            link: ['https://www.bodybuilding.com/exercises/triceps-pushdown-v-bar-attachment', 'https://www.bodybuilding.com/exercises/reverse-grip-triceps-pushdown', 'https://www.google.co.uk/']
         }
     ],
 
     backExc: [
 
         backBW = {
-            exc: ['backBW1', 'backBW2', 'backBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Pull-Ups', 'Back Extenesion', 'backBW3'],
+            link: ['https://www.bodybuilding.com/exercises/pullups', 'https://www.bodybuilding.com/exercises/hyperextensions-back-extensions', 'https://www.google.co.uk/']
         },
         backDB = {
-            exc: ['backDB1', 'backDB2', 'backDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Incline Dumbell Row', 'Single Dumbell Row', 'backDB3'],
+            link: ['https://www.bodybuilding.com/exercises/dumbbell-incline-row', 'https://www.bodybuilding.com/exercises/one-arm-dumbbell-row', 'https://www.google.co.uk/']
         },
         backBB = {
-            exc: ['backBB1', 'backBB2', 'backBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Bent-Over Barbell Row', 'Single Long Bar Row', 'backBB3'],
+            link: ['https://www.bodybuilding.com/exercises/bent-over-barbell-row', 'https://www.bodybuilding.com/exercises/one-arm-long-bar-row', 'https://www.google.co.uk/']
         },
         backFM = {
-            exc: ['backFM1', 'backFM2', 'backFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Seated Cable Rows', 'Lat Pull-Down', 'backFM3'],
+            link: ['https://www.bodybuilding.com/exercises/seated-cable-rows', 'https://www.bodybuilding.com/exercises/wide-grip-lat-pulldown', 'https://www.google.co.uk/']
         }
     ],
 
     bicepExc: [
 
         bicepBW = {
-            exc: ['bicepBW1', 'bicepBW2', 'bicepBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Chin-Ups', 'Pull-Ups', 'bicepBW3'],
+            link: ['https://www.bodybuilding.com/exercises/tbs-chin-up', 'https://www.bodybuilding.com/exercises/pullups', 'https://www.google.co.uk/']
         },
         bicepDB = {
-            exc: ['bicepDB1', 'bicepDB2', 'bicepDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Concentration Curl', 'Hammer Curls', 'bicepDB3'],
+            link: ['https://www.bodybuilding.com/exercises/concentration-curls', 'https://www.bodybuilding.com/exercises/hammer-curls', 'https://www.google.co.uk/']
         },
         bicepBB = {
-            exc: ['bicepBB1', 'bicepBB2', 'bicepBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Wide-Grip Barbell Curl', 'Barbell Spider Curl', 'bicepBB3'],
+            link: ['https://www.bodybuilding.com/exercises/wide-grip-standing-barbell-curl', 'https://www.bodybuilding.com/exercises/spider-curl', 'https://www.google.co.uk/']
         },
         bicepFM = {
-            exc: ['bicepFM1', 'bicepFM2', 'bicepFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Standing Cable Curl', 'Machine Preacher Curls', 'bicepFM3'],
+            link: ['https://www.bodybuilding.com/exercises/standing-one-arm-cable-curl', 'https://www.bodybuilding.com/exercises/machine-preacher-curls', 'https://www.google.co.uk/']
         }
     ],
 
     legExc: [
 
         legBW = {
-            exc: ['legBW1', 'legBW2', 'legBW3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Forward Lunge', 'Squat', 'legBW3'],
+            link: ['https://www.bodybuilding.com/exercises/bodyweight-lunge', 'https://www.bodybuilding.com/exercises/bodyweight-squat', 'https://www.google.co.uk/']
         },
         legDB = {
-            exc: ['legDB1', 'legDB2', 'legDB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Dumbell Goblet Squat', 'Dumbell Reverse Lunge', 'legDB3'],
+            link: ['https://www.bodybuilding.com/exercises/dumbbell-goblet-squat', 'https://www.bodybuilding.com/exercises/dumbbell-rear-lunge', 'https://www.google.co.uk/']
         },
         legBB = {
-            exc: ['legBB1', 'legBB2', 'legBB3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Barbell Glute Bridge', 'Barbell Full Squat', 'legBB3'],
+            link: ['https://www.bodybuilding.com/exercises/barbell-glute-bridge', 'https://www.bodybuilding.com/exercises/barbell-full-squat', 'https://www.google.co.uk/']
         },
         legFM = {
-            exc: ['legFM1', 'legFM2', 'legFM3'],
-            link: ['https://www.w3schools.com/jsref/prop_anchor_href.asp', 'https://search.brave.com/', 'https://www.google.co.uk/']
+            exc: ['Leg Press', 'Machine Calf Raise', 'legFM3'],
+            link: ['https://www.bodybuilding.com/exercises/leg-press', 'https://www.bodybuilding.com/exercises/smith-machine-calf-raise', 'https://www.google.co.uk/']
         }
     ]
 };
@@ -962,7 +962,6 @@ if (bodyweightOn && !dumbellsOn && !barbellOn && !gymOn) {      // ONLY bodyweig
 }
 };
 
-
 // Random Buttons / Text Elements Events & Functions
 
 const rndmBtns = document.querySelectorAll('.random-btn');      // Each excercise button
@@ -981,23 +980,48 @@ allBtns.forEach(btn =>
 
             pushRndmBtns.forEach(btn => btn.click());
 
+            setTimeout(() => {      // Checks for duplicates
+
+                checkDuplicates('push-cont');
+    
+            }, 1500);
+
         } else if (e.target.id == 'pullLegs-all-btn') {
 
             pullLegsRndmBtns.forEach(btn => btn.click());
+
+            setTimeout(() => {      // Checks for duplicates
+
+                checkDuplicates('pullLegs-cont');
+    
+            }, 1500);
 
         } else if (e.target.id == 'pull-all-btn') {
 
             pullRndmBtns.forEach(btn => btn.click());
 
+            setTimeout(() => {      // Checks for duplicates
+
+                checkDuplicates('pull-cont');
+    
+            }, 1500);
+
         } else if (e.target.id == 'legs-all-btn') {
 
             legsRndmBtns.forEach(btn => btn.click());
+
+            setTimeout(() => {      // Checks for duplicates
+
+                checkDuplicates('legsMain-cont');
+    
+            }, 1500);
 
         } else if (e.target.id == 'all-btn') {
 
             rndmBtns.forEach(btn => btn.click());
 
         }
+
     })
 );
 
@@ -1022,7 +1046,7 @@ function pressRandom(e) {       // Add visual effect to choosing options (timing
 
             setTimeout(() => { 
 
-                text.innerText = '';
+            text.innerText = '';
             chooseExc(e);
 
                 setTimeout(() => { 
@@ -1039,7 +1063,47 @@ function pressRandom(e) {       // Add visual effect to choosing options (timing
                 }, 200);
             }, 200);
     }, 200);
+
 };
+
+function checkDuplicates(split) {        // Checks whether theres duplicates & press random until there isn't
+
+    let finalArray = [];
+    let tempArray = [];
+    let textLocation = [];
+    let tempElemArray = [];
+
+    const textDiv = document.getElementById(`${split}`).querySelectorAll('.random-text')
+
+    textDiv.forEach(div => tempArray.push(div.innerText))
+    textDiv.forEach(div => tempElemArray.push(div))
+
+    for (let k = 0; k < tempArray.length; k++) {       // Pushes final names to new Array
+
+        if (tempArray[k] != '') {
+
+            finalArray.push(tempArray[k]);
+            textLocation.push(tempElemArray[k]);
+        }
+    }
+
+    for (let i = 0; i < (finalArray.length / 2); i++) {       // Compares exc 0-2 (i.e 1-3)
+
+        for (let j = (finalArray.length / 2); j < finalArray.length; j++) {       // Compares exc 3-5 (i.e 4-6)
+
+            if (finalArray[i] == finalArray[j]) {
+
+                textLocation[j].parentElement.lastElementChild.click()      // Press random button on duplicate elem
+
+                setTimeout(() => {      // Checks whether any duplicates again
+
+                    checkDuplicates(split);
+        
+                }, 1000);
+            }
+        }
+    }
+}
 
 function chooseExc(e) {     // Find a random property in arrays & assigns it to text element
 
@@ -1230,7 +1294,7 @@ function chooseExc(e) {     // Find a random property in arrays & assigns it to 
         }
     }
 
-    if (e.target.id == 'chest') {       // Adds text to button clicked
+    if (e.target.id == 'shoulders') {       // Adds text to button clicked
 
         text.innerText = choices[0];
         info.href = links[0];
@@ -1240,9 +1304,8 @@ function chooseExc(e) {     // Find a random property in arrays & assigns it to 
 
             text.innerText = 'Equipment Needed';
         }
-
-    } else if (e.target.id == 'triceps') {
-
+    } else if (e.target.id == 'chest') {
+  
         text.innerText = choices[1];
         info.href = links[1];
         info.target = '_blank';
@@ -1252,7 +1315,7 @@ function chooseExc(e) {     // Find a random property in arrays & assigns it to 
             text.innerText = 'Equipment Needed';
         }
 
-    } else if (e.target.id == 'shoulders') {
+    } else if (e.target.id == 'triceps') {
 
         text.innerText = choices[2];
         info.href = links[2];
